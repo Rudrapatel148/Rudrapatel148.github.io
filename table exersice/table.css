@@ -1,0 +1,71 @@
+body 
+{
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  background-color: #fff;
+}
+
+caption
+{
+  font-size: 30px;  
+}
+
+h2 
+{
+  margin-top: 40px;
+  font-size: 1.5em;
+}
+table 
+{
+  border-collapse: collapse;
+  margin: 20px 0;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+
+th, td 
+{
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: left;
+}
+
+tr:nth-child(3),
+tr:nth-child(5),
+tr:nth-child(7) 
+{
+    background-color: yellow;
+}
+
+.white
+{
+  background-color: white;
+}
+
+.yellow
+{
+  background-color: yellow;
+}
+
+td.right
+{
+  text-align: right;
+}
+
+tfoot
+{
+  background-color: yellow;
+}
+
+th
+{
+  background-color: yellow;
+}
+
+.t2 caption 
+{
+  caption-side: top;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
